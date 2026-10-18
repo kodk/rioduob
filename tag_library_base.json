@@ -1,0 +1,1704 @@
+{
+  "name": "tag_library_export_20261017_base",
+  "version": "1.0.0",
+  "remark": "从 NAI Launcher 导出包转换 (包含 227 条数据)",
+  "updated_at": "2026-10-17T08:47:09.462Z",
+  "groups": [
+    {
+      "id": 10000001,
+      "name": "通用负面",
+      "remark": "",
+      "negative": true,
+      "exclusive": false
+    },
+    {
+      "id": 10000002,
+      "name": "正面基础",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    },
+    {
+      "id": 10000003,
+      "name": "画风定位",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    },
+    {
+      "id": 10000004,
+      "name": "镜头与景别",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    },
+    {
+      "id": 10000005,
+      "name": "构图控制",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    },
+    {
+      "id": 10000006,
+      "name": "氛围情绪",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    },
+    {
+      "id": 10000007,
+      "name": "色彩方案",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    },
+    {
+      "id": 10000008,
+      "name": "时间光照",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    },
+    {
+      "id": 10000009,
+      "name": "特效滤镜",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    },
+    {
+      "id": 10000010,
+      "name": "光照与光源",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    },
+    {
+      "id": 10000011,
+      "name": "天气与季节",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    },
+    {
+      "id": 10000012,
+      "name": "视角与透视",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    },
+    {
+      "id": 10000013,
+      "name": "场景与设定",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    },
+    {
+      "id": 10000014,
+      "name": "动态自然元素",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    },
+    {
+      "id": 10000015,
+      "name": "动作姿势",
+      "remark": "",
+      "negative": false,
+      "exclusive": false
+    }
+  ],
+  "items": [
+    {
+      "id": 20000001,
+      "group_id": 10000003,
+      "name": "3D渲染/CG (画风)",
+      "prompt": "3D, cgi, octane_render, unreal_engine_5, ray_tracing, blender_render, subsurface_scattering",
+      "remark": "强体积材质光, 适合产品与场景, 慎叠厚涂"
+    },
+    {
+      "id": 20000002,
+      "group_id": 10000013,
+      "name": "幻想村落 (场景)",
+      "prompt": "fantasy_village, medieval_town, fantasy_landscape",
+      "remark": "中世纪RPG村落, 适合奇幻与吉卜力风"
+    },
+    {
+      "id": 20000003,
+      "group_id": 10000011,
+      "name": "多云/阴天 (天气)",
+      "prompt": "cloudy, overcast, overcast_sky",
+      "remark": "柔光无硬影, 人像与日常场景友好"
+    },
+    {
+      "id": 20000004,
+      "group_id": 10000011,
+      "name": "雾 (天气)",
+      "prompt": "fog, mist, foggy, hazy_atmosphere",
+      "remark": "空气透视强, 适合层次与神秘氛围"
+    },
+    {
+      "id": 20000005,
+      "group_id": 10000004,
+      "name": "广角全景 (镜头)",
+      "prompt": "wide_shot",
+      "remark": "人物占比小, 突出环境与宏大场景"
+    },
+    {
+      "id": 20000006,
+      "group_id": 10000003,
+      "name": "治愈系/吉卜力 (画风)",
+      "prompt": "studio_ghibli_style, soft_warm_lighting, pastoral, whimsical, hand-painted_background",
+      "remark": "暖光田园手绘感, 适合日常治愈"
+    },
+    {
+      "id": 20000007,
+      "group_id": 10000008,
+      "name": "夜晚 (时间)",
+      "prompt": "night, nighttime, dark_night_sky",
+      "remark": "需配光源, 否则易黑；适合夜景霓虹"
+    },
+    {
+      "id": 20000008,
+      "group_id": 10000003,
+      "name": "二次元/日系插画 (画风)",
+      "prompt": "anime_style, illustration, 2d, cel_shading, vibrant_anime_colors",
+      "remark": "平涂赛璐珞, 适合日系角色与海报"
+    },
+    {
+      "id": 20000009,
+      "group_id": 10000004,
+      "name": "长焦镜头 (镜头)",
+      "prompt": "telephoto_lens",
+      "remark": "压缩空间虚化背景, 人像氛围强"
+    },
+    {
+      "id": 20000010,
+      "group_id": 10000002,
+      "name": "分辨率与细节 (正面)",
+      "prompt": "incredibly_detailed, ultra_detailed, highres, 8k, extremely_detailed, CG, unity, 8k_wallpaper",
+      "remark": "提升清晰细节, 慎与柔焦同用"
+    },
+    {
+      "id": 20000011,
+      "group_id": 10000007,
+      "name": "冷色调 (色彩)",
+      "prompt": "cool_tones, cool_color_palette, blue_and_teal_hues",
+      "remark": "冷蓝疏离, 适合夜雨雪与冷静场景"
+    },
+    {
+      "id": 20000012,
+      "group_id": 10000009,
+      "name": "柔光辉光 (特效)",
+      "prompt": "bloom, glow, soft_glow",
+      "remark": "高光溢出梦幻, 强度别太高"
+    },
+    {
+      "id": 20000013,
+      "group_id": 10000013,
+      "name": "科幻/太空 (场景)",
+      "prompt": "spaceship_interior, space_station, sci_fi_environment",
+      "remark": "金属冷光太空舱, 适合科幻场景"
+    },
+    {
+      "id": 20000014,
+      "group_id": 10000004,
+      "name": "牛仔镜头 (镜头)",
+      "prompt": "cowboy_shot",
+      "remark": "大腿中部以上, 兼顾人物与环境"
+    },
+    {
+      "id": 20000015,
+      "group_id": 10000003,
+      "name": "像素风/复古游戏 (画风)",
+      "prompt": "pixel_art, 8-bit, 16-bit, retro_game_style, limited_color_palette, dithering",
+      "remark": "低色数颗粒, 注意负面dithering冲突"
+    },
+    {
+      "id": 20000016,
+      "group_id": 10000005,
+      "name": "三分构图 (构图)",
+      "prompt": "rule_of_thirds",
+      "remark": "主体偏三分线, 增强电影感与平衡"
+    },
+    {
+      "id": 20000017,
+      "group_id": 10000002,
+      "name": "构图与色彩 (正面)",
+      "prompt": "sharp_focus, vibrant_colors, beautiful_composition",
+      "remark": "锐焦鲜艳构图稳, 提升整体观感"
+    },
+    {
+      "id": 20000018,
+      "group_id": 10000012,
+      "name": "平视镜头 (视角)",
+      "prompt": "eye-level",
+      "remark": "自然默认视角, 适合大多数画面"
+    },
+    {
+      "id": 20000019,
+      "group_id": 10000013,
+      "name": "山野 (场景)",
+      "prompt": "mountains, mountain_range, highlands, valley",
+      "remark": "山脉河谷, 适合宏大远景与自然场景"
+    },
+    {
+      "id": 20000020,
+      "group_id": 10000001,
+      "name": "通用负面黑名单 (负面)",
+      "prompt": "lowres, artistic_error, film_grain, scan_artifacts, worst_quality, bad_quality, jpeg_artifacts, very_displeasing, chromatic_aberration, dithering, halftone, screentone, multiple_views, logo, too_many_watermarks, negative_space, blank_page, low_quality, out_of_focus, blurry, bad_anatomy, deformed, mutated, disfigured, missing_arms, extra_arms, extra_legs, bad_hands, malformed_hands, extra_fingers, inaccurate_limbs, extra_digits, fewer_digits",
+      "remark": "整段通用；留白像素虚化时删冲突词"
+    },
+    {
+      "id": 20000021,
+      "group_id": 10000004,
+      "name": "近景 (镜头)",
+      "prompt": "medium_close-up",
+      "remark": "胸口以上, 突出表情与上半身细节"
+    },
+    {
+      "id": 20000022,
+      "group_id": 10000007,
+      "name": "霓虹色系 (色彩)",
+      "prompt": "neon_palette, neon_colors, glowing_neon_hues",
+      "remark": "霓虹高饱和, 适合赛博夜景科幻"
+    },
+    {
+      "id": 20000023,
+      "group_id": 10000012,
+      "name": "仰拍 (视角)",
+      "prompt": "low_angle",
+      "remark": "低角度显高大气势, 适合英雄压迫感"
+    },
+    {
+      "id": 20000024,
+      "group_id": 10000006,
+      "name": "梦幻空灵 (氛围)",
+      "prompt": "dreamy, ethereal, surreal, otherworldly, whimsical",
+      "remark": "超现实空灵, 适合梦境幻想题材"
+    },
+    {
+      "id": 20000025,
+      "group_id": 10000006,
+      "name": "静谧/忧郁 (氛围)",
+      "prompt": "serene, melancholic, quiet_atmosphere, somber_mood, subdued",
+      "remark": "安静低沉, 适合独处雨天回忆"
+    },
+    {
+      "id": 20000026,
+      "group_id": 10000006,
+      "name": "怀旧感伤 (氛围)",
+      "prompt": "nostalgic, bittersweet, vintage_mood, sentimental, retro_feeling",
+      "remark": "复古感伤, 适合老照片青春回忆"
+    },
+    {
+      "id": 20000027,
+      "group_id": 10000003,
+      "name": "厚涂/油画 (画风)",
+      "prompt": "oil_painting, impasto, thick_brush_strokes, traditional_media, canvas_texture, painterly",
+      "remark": "厚笔触画布肌理, 适合传统绘画感"
+    },
+    {
+      "id": 20000028,
+      "group_id": 10000002,
+      "name": "画质起手式 (正面)",
+      "prompt": "masterpiece, best_quality, amazing_quality, very_aesthetic, absurdres",
+      "remark": "通用画质提升, 任何风格优先加"
+    },
+    {
+      "id": 20000029,
+      "group_id": 10000003,
+      "name": "写实照片/真人风 (画风)",
+      "prompt": "realistic, photorealistic, raw_photo, 35mm_lens, dslr, film_photography, natural_skin_texture",
+      "remark": "相机直出质感, 注意负面film_grain"
+    },
+    {
+      "id": 20000030,
+      "group_id": 10000003,
+      "name": "美漫/漫画风 (画风)",
+      "prompt": "comic_style, american_comic, bold_lineart, halftone_shading, graphic_novel, ink_drawing",
+      "remark": "粗线稿网点阴影, 注意负面halftone冲突"
+    },
+    {
+      "id": 20000031,
+      "group_id": 10000007,
+      "name": "高饱和/鲜艳 (色彩)",
+      "prompt": "vibrant_colors, saturated_colors, vivid_palette",
+      "remark": "鲜艳冲击, 适合二次元海报"
+    },
+    {
+      "id": 20000032,
+      "group_id": 10000009,
+      "name": "镜头光晕 (特效)",
+      "prompt": "lens_flare, light_flare, sun_flare",
+      "remark": "逆光光晕, 增强摄影感与氛围"
+    },
+    {
+      "id": 20000033,
+      "group_id": 10000003,
+      "name": "暗黑奇幻/哥特 (画风)",
+      "prompt": "dark_fantasy, gothic, grimdark, moody_atmosphere, intricate_armor, eldritch",
+      "remark": "阴郁哥特, 适合暗黑奇幻题材"
+    },
+    {
+      "id": 20000034,
+      "group_id": 10000007,
+      "name": "单色/黑白 (色彩)",
+      "prompt": "monochrome, black_and_white, grayscale",
+      "remark": "黑白灰, 和鲜艳色冲突别同选"
+    },
+    {
+      "id": 20000035,
+      "group_id": 10000013,
+      "name": "废墟 (场景)",
+      "prompt": "ruins, abandoned, decaying_structures, overgrown",
+      "remark": "废弃破败, 适合末世探险暗黑"
+    },
+    {
+      "id": 20000036,
+      "group_id": 10000009,
+      "name": "粒子/光尘 (特效)",
+      "prompt": "particles, floating_particles, dust_motes, sparkles",
+      "remark": "空气光尘, 适合魔法与体积光叠加"
+    },
+    {
+      "id": 20000037,
+      "group_id": 10000011,
+      "name": "晴朗 (天气)",
+      "prompt": "clear_sky, cloudless, sunny",
+      "remark": "干净通透, 适合明亮日常与风景"
+    },
+    {
+      "id": 20000038,
+      "group_id": 10000011,
+      "name": "风暴 (天气)",
+      "prompt": "storm, thunderstorm, lightning, stormy_sky",
+      "remark": "雷电风暴, 适合战斗史诗高张力"
+    },
+    {
+      "id": 20000039,
+      "group_id": 10000008,
+      "name": "白天 (时间)",
+      "prompt": "daytime, bright_daylight, sunny_day",
+      "remark": "明亮日光, 默认日常场景"
+    },
+    {
+      "id": 20000040,
+      "group_id": 10000004,
+      "name": "极致特写 (镜头)",
+      "prompt": "extreme_close-up",
+      "remark": "眼唇局部, 强调细节与情绪"
+    },
+    {
+      "id": 20000041,
+      "group_id": 10000013,
+      "name": "城市 (场景)",
+      "prompt": "cityscape, urban, city_street, skyscrapers",
+      "remark": "现代都市街景, 配霓虹夜景好"
+    },
+    {
+      "id": 20000042,
+      "group_id": 10000004,
+      "name": "简单背景虚化 (镜头)",
+      "prompt": "blurred_background",
+      "remark": "背景虚化突出主体, 注意负面blurry"
+    },
+    {
+      "id": 20000043,
+      "group_id": 10000002,
+      "name": "光影氛围 (正面)",
+      "prompt": "dynamic_lighting, cinematic_lighting, soft_lighting, volumetric_lighting",
+      "remark": "电影感体积光, 提升画面质感"
+    },
+    {
+      "id": 20000044,
+      "group_id": 10000004,
+      "name": "宏大远景 (镜头)",
+      "prompt": "extreme_wide_shot",
+      "remark": "人物渺小, 突出地貌与史诗感"
+    },
+    {
+      "id": 20000045,
+      "group_id": 10000012,
+      "name": "俯拍 (视角)",
+      "prompt": "high_angle",
+      "remark": "高角度俯视, 压迫感与鸟瞰效果"
+    },
+    {
+      "id": 20000046,
+      "group_id": 10000012,
+      "name": "过肩镜头 (视角)",
+      "prompt": "over_shoulder",
+      "remark": "双人对话视角, 增强代入与关系"
+    },
+    {
+      "id": 20000047,
+      "group_id": 10000013,
+      "name": "室内 (场景)",
+      "prompt": "indoor, interior, room_interior",
+      "remark": "室内空间, 具体房间类型需补充"
+    },
+    {
+      "id": 20000048,
+      "group_id": 10000004,
+      "name": "中景 (镜头)",
+      "prompt": "medium_shot",
+      "remark": "膝盖以上, 兼顾人物动作与环境"
+    },
+    {
+      "id": 20000049,
+      "group_id": 10000009,
+      "name": "柔焦朦胧 (特效)",
+      "prompt": "soft_focus, hazy, dreamy_blur",
+      "remark": "柔焦朦胧, 慎与高细节8k同用"
+    },
+    {
+      "id": 20000050,
+      "group_id": 10000004,
+      "name": "特写 (镜头)",
+      "prompt": "close-up",
+      "remark": "脸部手部局部, 强调细节与表情"
+    },
+    {
+      "id": 20000051,
+      "group_id": 10000007,
+      "name": "低饱和/褪色 (色彩)",
+      "prompt": "muted_colors, desaturated, faded_colors, subdued_palette",
+      "remark": "褪色电影感, 适合纪实废土"
+    },
+    {
+      "id": 20000052,
+      "group_id": 10000004,
+      "name": "焦外散景光斑 (镜头)",
+      "prompt": "bokeh",
+      "remark": "背景光斑虚化, 负面已移除bokeh"
+    },
+    {
+      "id": 20000053,
+      "group_id": 10000006,
+      "name": "温暖治愈 (氛围)",
+      "prompt": "warm_atmosphere, cozy, heartwarming, gentle, comforting",
+      "remark": "温暖舒适, 适合日常治愈吉卜力"
+    },
+    {
+      "id": 20000054,
+      "group_id": 10000004,
+      "name": "鱼眼镜头 (镜头)",
+      "prompt": "fisheye",
+      "remark": "边缘扭曲夸张, 适合创意动感"
+    },
+    {
+      "id": 20000055,
+      "group_id": 10000005,
+      "name": "对角线构图 (构图)",
+      "prompt": "diagonal_composition",
+      "remark": "对角线增强动感与张力, 适合战斗"
+    },
+    {
+      "id": 20000056,
+      "group_id": 10000013,
+      "name": "森林/自然 (场景)",
+      "prompt": "nature, forest, woodland, lush_trees",
+      "remark": "绿意树林, 配丁达尔光更佳"
+    },
+    {
+      "id": 20000057,
+      "group_id": 10000008,
+      "name": "日落/黄昏 (时间)",
+      "prompt": "sunset, dusk, evening_glow",
+      "remark": "暖橘红情绪浓, 适合人像风景"
+    },
+    {
+      "id": 20000058,
+      "group_id": 10000002,
+      "name": "背景与层次 (正面)",
+      "prompt": "detailed_background, intricate_details, depth_of_field",
+      "remark": "细节背景与景深, 适合带场景画面"
+    },
+    {
+      "id": 20000059,
+      "group_id": 10000002,
+      "name": "面部与毛发 (正面)",
+      "prompt": "beautiful_detailed_eyes, beautiful_detailed_lips, finely_detailed_hair",
+      "remark": "眼唇发丝精细, 画人物时加"
+    },
+    {
+      "id": 20000060,
+      "group_id": 10000009,
+      "name": "体积光/丁达尔 (特效)",
+      "prompt": "god_rays, volumetric_light, light_shafts, crepuscular_rays",
+      "remark": "树林窗光光柱, 营造空气感"
+    },
+    {
+      "id": 20000061,
+      "group_id": 10000007,
+      "name": "粉彩/柔和 (色彩)",
+      "prompt": "pastel_palette, soft_colors, muted_pastel_tones",
+      "remark": "粉彩柔和, 适合小清新鲜嫩"
+    },
+    {
+      "id": 20000062,
+      "group_id": 10000009,
+      "name": "运动模糊 (特效)",
+      "prompt": "motion_blur, dynamic_blur, speed_lines",
+      "remark": "动态速度感, 适合战斗与运动"
+    },
+    {
+      "id": 20000063,
+      "group_id": 10000007,
+      "name": "暖色调 (色彩)",
+      "prompt": "warm_tones, warm_color_palette, amber_and_orange_hues",
+      "remark": "暖橙温馨, 适合黄昏室内日常"
+    },
+    {
+      "id": 20000064,
+      "group_id": 10000005,
+      "name": "居中构图 (构图)",
+      "prompt": "centered_composition",
+      "remark": "主体居中, 稳定正式突出主体"
+    },
+    {
+      "id": 20000065,
+      "group_id": 10000006,
+      "name": "戏剧张力 (氛围)",
+      "prompt": "dramatic, intense, tense_atmosphere, high_tension, theatrical",
+      "remark": "紧张对峙, 适合战斗悬念"
+    },
+    {
+      "id": 20000066,
+      "group_id": 10000006,
+      "name": "神秘压抑 (氛围)",
+      "prompt": "mysterious, ominous, eerie, foreboding, unsettling",
+      "remark": "阴森不安, 适合恐怖悬疑"
+    },
+    {
+      "id": 20000067,
+      "group_id": 10000013,
+      "name": "海/水边 (场景)",
+      "prompt": "ocean, seaside, beach, waterfront",
+      "remark": "海边水面, 注意反光吃细节"
+    },
+    {
+      "id": 20000068,
+      "group_id": 10000011,
+      "name": "雨 (天气)",
+      "prompt": "rain, raining, rainy_day, wet_surfaces, rain_droplets",
+      "remark": "雨天水汽反光, 注意地面细节"
+    },
+    {
+      "id": 20000069,
+      "group_id": 10000004,
+      "name": "广角镜头 (镜头)",
+      "prompt": "wide_angle_lens",
+      "remark": "广角拉伸透视, 增强空间动感"
+    },
+    {
+      "id": 20000070,
+      "group_id": 10000004,
+      "name": "全身 (镜头)",
+      "prompt": "full_body",
+      "remark": "完整人物, 易崩肢体, 带全负面"
+    },
+    {
+      "id": 20000071,
+      "group_id": 10000011,
+      "name": "雪 (天气)",
+      "prompt": "snow, snowfall, snowy, winter_atmosphere",
+      "remark": "雪景冷调, 适合冬季浪漫"
+    },
+    {
+      "id": 20000072,
+      "group_id": 10000008,
+      "name": "黄金时刻 (时间)",
+      "prompt": "golden_hour, warm_golden_sunlight, low_sun",
+      "remark": "暖金光低角度, 人像风景出片高"
+    },
+    {
+      "id": 20000073,
+      "group_id": 10000008,
+      "name": "日出/清晨 (时间)",
+      "prompt": "sunrise, dawn, early_morning_light",
+      "remark": "清晨清冷偏暖, 空气感强"
+    },
+    {
+      "id": 20000074,
+      "group_id": 10000012,
+      "name": "倾斜镜头 (视角)",
+      "prompt": "dutch_angle",
+      "remark": "画面歪斜, 适合紧张躁动"
+    },
+    {
+      "id": 20000075,
+      "group_id": 10000003,
+      "name": "水彩/清新手绘 (画风)",
+      "prompt": "watercolor, ink_wash, soft_brush_strokes, pastel_colors, hand-drawn, paper_texture",
+      "remark": "水彩通透, 适合小清新手绘"
+    },
+    {
+      "id": 20000076,
+      "group_id": 10000003,
+      "name": "赛博朋克/科幻 (画风)",
+      "prompt": "cyberpunk, sci_fi_concept_art, neon_lights, futuristic, dystopian, high_tech",
+      "remark": "霓虹高反差, 适合赛博科幻"
+    },
+    {
+      "id": 20000077,
+      "group_id": 10000008,
+      "name": "蓝调时刻 (时间)",
+      "prompt": "blue_hour, twilight, cool_blue_ambient_light",
+      "remark": "冷蓝暮色, 城市夜景首选"
+    },
+    {
+      "id": 20000078,
+      "group_id": 10000005,
+      "name": "留白构图 (构图)",
+      "prompt": "generous_negative_space, minimal_composition, clean_background",
+      "remark": "大量留白简洁, 需删负面negative_space"
+    },
+    {
+      "id": 20000079,
+      "group_id": 10000005,
+      "name": "框架构图 (构图)",
+      "prompt": "frame_within_frame, natural_frame, framing",
+      "remark": "门窗树枝做框, 增强层次窥视感"
+    },
+    {
+      "id": 20000080,
+      "group_id": 10000005,
+      "name": "对称构图 (构图)",
+      "prompt": "symmetrical_composition, symmetry",
+      "remark": "对称稳定, 适合建筑倒影仪式感"
+    },
+    {
+      "id": 20000081,
+      "group_id": 10000005,
+      "name": "引导线构图 (构图)",
+      "prompt": "leading_lines, vanishing_point, perspective_lines",
+      "remark": "道路走廊引导视线, 增强纵深"
+    },
+    {
+      "id": 20000082,
+      "group_id": 10000005,
+      "name": "前景遮挡 (构图)",
+      "prompt": "foreground_framing, foreground_occlusion, blurred_foreground",
+      "remark": "前景虚化遮挡, 增加层次窥视"
+    },
+    {
+      "id": 20000083,
+      "group_id": 10000005,
+      "name": "低地平线 (构图)",
+      "prompt": "low_horizon_line, vast_sky",
+      "remark": "天空占比大, 适合云景史诗"
+    },
+    {
+      "id": 20000084,
+      "group_id": 10000005,
+      "name": "高地平线 (构图)",
+      "prompt": "high_horizon_line, vast_ground",
+      "remark": "地面占比大, 适合地貌场景"
+    },
+    {
+      "id": 20000085,
+      "group_id": 10000005,
+      "name": "黄金分割 (构图)",
+      "prompt": "golden_ratio_composition, golden_spiral",
+      "remark": "古典黄金比例, 比三分更优雅"
+    },
+    {
+      "id": 20000086,
+      "group_id": 10000010,
+      "name": "逆光 (光源)",
+      "prompt": "backlight, backlit, contre-jour",
+      "remark": "逆光轮廓光, 空气感强"
+    },
+    {
+      "id": 20000087,
+      "group_id": 10000010,
+      "name": "侧光 (光源)",
+      "prompt": "side_lighting, side_light, lateral_light",
+      "remark": "侧光强调体积纹理, 适合人像静物"
+    },
+    {
+      "id": 20000088,
+      "group_id": 10000010,
+      "name": "顶光 (光源)",
+      "prompt": "top_lighting, overhead_lighting",
+      "remark": "顶光压迫戏剧, 适合舞台悬疑"
+    },
+    {
+      "id": 20000089,
+      "group_id": 10000010,
+      "name": "底光 (光源)",
+      "prompt": "bottom_lighting, underlighting",
+      "remark": "底光怪诞恐怖, 适合戏剧反派"
+    },
+    {
+      "id": 20000090,
+      "group_id": 10000010,
+      "name": "柔光光位 (光源)",
+      "prompt": "softbox_lighting, diffused_lighting, soft_light",
+      "remark": "柔光阴影柔和, 人像友好"
+    },
+    {
+      "id": 20000091,
+      "group_id": 10000010,
+      "name": "硬光直射 (光源)",
+      "prompt": "hard_lighting, direct_light, harsh_shadows",
+      "remark": "硬光强对比, 适合戏剧街头"
+    },
+    {
+      "id": 20000092,
+      "group_id": 10000010,
+      "name": "轮廓光 (光源)",
+      "prompt": "rim_light, edge_lighting, outline_light",
+      "remark": "轮廓光分离主体与背景"
+    },
+    {
+      "id": 20000093,
+      "group_id": 10000010,
+      "name": "高调布光 (光源)",
+      "prompt": "high_key_lighting, bright_lighting, low_contrast",
+      "remark": "明亮低对比, 适合时尚商业"
+    },
+    {
+      "id": 20000094,
+      "group_id": 10000010,
+      "name": "低调布光 (光源)",
+      "prompt": "low_key_lighting, dark_lighting, high_contrast",
+      "remark": "暗调高对比, 适合悬疑noir"
+    },
+    {
+      "id": 20000095,
+      "group_id": 10000010,
+      "name": "伦勃朗光 (光源)",
+      "prompt": "rembrandt_lighting",
+      "remark": "三角光经典人像, 立体感强"
+    },
+    {
+      "id": 20000096,
+      "group_id": 10000010,
+      "name": "蝴蝶光 (光源)",
+      "prompt": "butterfly_lighting, paramount_lighting",
+      "remark": "鼻下蝴蝶影, 美人光适合正面人像"
+    },
+    {
+      "id": 20000097,
+      "group_id": 10000010,
+      "name": "分割光 (光源)",
+      "prompt": "split_lighting, half_face_shadow",
+      "remark": "半明半暗, 强戏剧适合反派"
+    },
+    {
+      "id": 20000098,
+      "group_id": 10000010,
+      "name": "月光 (光源)",
+      "prompt": "moonlight, moonlit, lunar_light",
+      "remark": "冷蓝月光, 适合夜景静谧"
+    },
+    {
+      "id": 20000099,
+      "group_id": 10000010,
+      "name": "烛光 (光源)",
+      "prompt": "candlelight, candle_glow",
+      "remark": "暖黄小光源, 适合室内温馨"
+    },
+    {
+      "id": 20000100,
+      "group_id": 10000010,
+      "name": "火光 (光源)",
+      "prompt": "firelight, fireplace_glow, flame_light",
+      "remark": "暖橙跳动, 适合战斗温暖场景"
+    },
+    {
+      "id": 20000101,
+      "group_id": 10000010,
+      "name": "霓虹灯光 (光源)",
+      "prompt": "neon_lights, neon_sign_glow, neon_tubes",
+      "remark": "霓虹管光, 适合赛博夜景"
+    },
+    {
+      "id": 20000102,
+      "group_id": 10000010,
+      "name": "屏幕光 (光源)",
+      "prompt": "screen_glow, monitor_light, phone_screen_light",
+      "remark": "脸部冷光, 适合科技深夜"
+    },
+    {
+      "id": 20000103,
+      "group_id": 10000010,
+      "name": "车灯 (光源)",
+      "prompt": "car_lights, headlights, tail_lights",
+      "remark": "车灯夜景, 适合街道追车"
+    },
+    {
+      "id": 20000104,
+      "group_id": 10000010,
+      "name": "荧光灯 (光源)",
+      "prompt": "fluorescent_lighting, fluorescent_tubes",
+      "remark": "冷白荧光, 适合机构恐怖"
+    },
+    {
+      "id": 20000105,
+      "group_id": 10000010,
+      "name": "聚光灯 (光源)",
+      "prompt": "spotlight, stage_light, follow_spot",
+      "remark": "舞台聚光, 突出主体聚焦"
+    },
+    {
+      "id": 20000106,
+      "group_id": 10000010,
+      "name": "街灯 (光源)",
+      "prompt": "streetlight, street_lamp_glow",
+      "remark": "街灯暖光, 适合城市夜晚"
+    },
+    {
+      "id": 20000107,
+      "group_id": 10000010,
+      "name": "窗光 (光源)",
+      "prompt": "window_light, light_from_window",
+      "remark": "窗光方向明确, 适合室内自然光"
+    },
+    {
+      "id": 20000108,
+      "group_id": 10000010,
+      "name": "生物光 (光源)",
+      "prompt": "bioluminescence, glowing_organisms",
+      "remark": "生物荧光, 适合奇幻深海森林"
+    },
+    {
+      "id": 20000109,
+      "group_id": 10000011,
+      "name": "春 (天气)",
+      "prompt": "spring, springtime, blooming_flowers",
+      "remark": "春花嫩绿, 适合清新春日"
+    },
+    {
+      "id": 20000110,
+      "group_id": 10000011,
+      "name": "夏 (天气)",
+      "prompt": "summer, summer_day, lush_greenery",
+      "remark": "夏日浓绿强光, 适合活力场景"
+    },
+    {
+      "id": 20000111,
+      "group_id": 10000011,
+      "name": "秋 (天气)",
+      "prompt": "autumn, fall, autumn_foliage",
+      "remark": "秋叶暖黄红, 适合怀旧秋景"
+    },
+    {
+      "id": 20000112,
+      "group_id": 10000011,
+      "name": "冬 (天气)",
+      "prompt": "winter, winter_scene, bare_trees",
+      "remark": "冬景冷色萧瑟, 适合雪景荒凉"
+    },
+    {
+      "id": 20000113,
+      "group_id": 10000011,
+      "name": "樱花季 (天气)",
+      "prompt": "cherry_blossoms, sakura, spring_bloom",
+      "remark": "樱花春日, 适合日系浪漫"
+    },
+    {
+      "id": 20000114,
+      "group_id": 10000011,
+      "name": "红叶季 (天气)",
+      "prompt": "red_maple_leaves, autumn_leaves, fall_foliage",
+      "remark": "红叶高饱和, 适合秋景"
+    },
+    {
+      "id": 20000115,
+      "group_id": 10000011,
+      "name": "积雪 (天气)",
+      "prompt": "snow_cover, snow_on_ground, snowy_ground",
+      "remark": "地面积雪, 适合冬季地面"
+    },
+    {
+      "id": 20000116,
+      "group_id": 10000011,
+      "name": "梅雨季 (天气)",
+      "prompt": "rainy_season, plum_rain, tsuyu",
+      "remark": "湿润阴柔, 适合梅雨氛围"
+    },
+    {
+      "id": 20000117,
+      "group_id": 10000011,
+      "name": "新绿 (天气)",
+      "prompt": "fresh_greenery, new_leaves, young_foliage",
+      "remark": "初夏新绿, 清新柔和"
+    },
+    {
+      "id": 20000118,
+      "group_id": 10000011,
+      "name": "枯叶 (天气)",
+      "prompt": "fallen_leaves, dry_leaves, dead_leaves",
+      "remark": "枯叶怀旧, 适合秋末废土"
+    },
+    {
+      "id": 20000119,
+      "group_id": 10000012,
+      "name": "航拍 (视角)",
+      "prompt": "aerial_view, drone_shot, aerial_photography",
+      "remark": "高空俯拍, 适合大场景地貌"
+    },
+    {
+      "id": 20000120,
+      "group_id": 10000012,
+      "name": "鸟瞰 (视角)",
+      "prompt": "bird_eye_view, top_down_view, overhead_view",
+      "remark": "垂直俯视, 适合全局布局"
+    },
+    {
+      "id": 20000121,
+      "group_id": 10000012,
+      "name": "等距视角 (视角)",
+      "prompt": "isometric_view, isometric_perspective",
+      "remark": "等距透视, 适合游戏建筑微缩"
+    },
+    {
+      "id": 20000122,
+      "group_id": 10000012,
+      "name": "第一人称 (视角)",
+      "prompt": "first_person_view, POV",
+      "remark": "POV代入感, 适合互动视角"
+    },
+    {
+      "id": 20000123,
+      "group_id": 10000012,
+      "name": "微距 (视角)",
+      "prompt": "macro_photography, macro_shot, close_macro",
+      "remark": "微距细节, 适合昆虫材质"
+    },
+    {
+      "id": 20000124,
+      "group_id": 10000012,
+      "name": "移轴 (视角)",
+      "prompt": "tilt_shift, miniature_effect",
+      "remark": "移轴微缩, 适合模型感"
+    },
+    {
+      "id": 20000125,
+      "group_id": 10000012,
+      "name": "强制透视 (视角)",
+      "prompt": "forced_perspective, forced_perspective_shot",
+      "remark": "大小错觉, 适合创意构图"
+    },
+    {
+      "id": 20000126,
+      "group_id": 10000012,
+      "name": "虫眼视角 (视角)",
+      "prompt": "worm_eye_view, ground_level_view",
+      "remark": "极低视角, 夸张高大压迫"
+    },
+    {
+      "id": 20000127,
+      "group_id": 10000012,
+      "name": "正交视角 (视角)",
+      "prompt": "orthographic_view, orthographic_projection",
+      "remark": "无透视, 适合设计图像素"
+    },
+    {
+      "id": 20000128,
+      "group_id": 10000012,
+      "name": "广角畸变 (视角)",
+      "prompt": "wide_angle_distortion, exaggerated_perspective",
+      "remark": "边缘拉伸, 增强动感冲击"
+    },
+    {
+      "id": 20000129,
+      "group_id": 10000013,
+      "name": "现代 (场景)",
+      "prompt": "modern, contemporary, present_day",
+      "remark": "现代日常都市, 适合当代场景"
+    },
+    {
+      "id": 20000130,
+      "group_id": 10000013,
+      "name": "中世纪 (场景)",
+      "prompt": "medieval, middle_ages, medieval_setting",
+      "remark": "中世纪城堡, 适合奇幻历史"
+    },
+    {
+      "id": 20000131,
+      "group_id": 10000013,
+      "name": "复古 (场景)",
+      "prompt": "retro, vintage, retro_style",
+      "remark": "复古旧时代, 适合老照片"
+    },
+    {
+      "id": 20000132,
+      "group_id": 10000013,
+      "name": "未来 (场景)",
+      "prompt": "futuristic, future_setting, futuristic_world",
+      "remark": "未来高科技, 适合科幻"
+    },
+    {
+      "id": 20000133,
+      "group_id": 10000013,
+      "name": "工业 (场景)",
+      "prompt": "industrial, industrial_revolution, factory_setting",
+      "remark": "工业机械蒸汽, 适合冷硬场景"
+    },
+    {
+      "id": 20000134,
+      "group_id": 10000013,
+      "name": "日式 (场景)",
+      "prompt": "japanese_style, wa_style, japanese_setting",
+      "remark": "和风神社町屋, 适合日式场景"
+    },
+    {
+      "id": 20000135,
+      "group_id": 10000013,
+      "name": "中式 (场景)",
+      "prompt": "chinese_style, ancient_chinese, oriental_setting",
+      "remark": "古风东方, 适合中式场景"
+    },
+    {
+      "id": 20000136,
+      "group_id": 10000013,
+      "name": "欧式 (场景)",
+      "prompt": "european_style, european_architecture, western_setting",
+      "remark": "欧式古典城镇, 适合西方场景"
+    },
+    {
+      "id": 20000137,
+      "group_id": 10000013,
+      "name": "废土 (场景)",
+      "prompt": "wasteland, post-apocalyptic, ruined_world",
+      "remark": "末世荒芜, 适合后启示录"
+    },
+    {
+      "id": 20000138,
+      "group_id": 10000013,
+      "name": "维多利亚 (场景)",
+      "prompt": "victorian, victorian_era, victorian_setting",
+      "remark": "维多利亚英伦, 适合古典蒸汽"
+    },
+    {
+      "id": 20000139,
+      "group_id": 10000013,
+      "name": "古代 (场景)",
+      "prompt": "ancient, ancient_times, historical_setting",
+      "remark": "历史古代, 适合古装题材"
+    },
+    {
+      "id": 20000140,
+      "group_id": 10000013,
+      "name": "蒸汽朋克 (场景)",
+      "prompt": "steampunk, steam_powered, brass_and_gears",
+      "remark": "蒸汽机械黄铜齿轮, 适合朋克美学"
+    },
+    {
+      "id": 20000141,
+      "group_id": 10000014,
+      "name": "风 (动态)",
+      "prompt": "wind, windy, wind_effect",
+      "remark": "风吹发衣摆, 增强动感自然"
+    },
+    {
+      "id": 20000142,
+      "group_id": 10000014,
+      "name": "烟 (动态)",
+      "prompt": "smoke, smoke_effect, drifting_smoke",
+      "remark": "烟雾飘散, 适合战损神秘"
+    },
+    {
+      "id": 20000143,
+      "group_id": 10000014,
+      "name": "火 (动态)",
+      "prompt": "fire, flames, burning",
+      "remark": "火焰燃烧, 适合危险战斗温暖"
+    },
+    {
+      "id": 20000144,
+      "group_id": 10000014,
+      "name": "水花 (动态)",
+      "prompt": "water_splash, splashing_water, water_droplets",
+      "remark": "水花飞溅, 适合动感清凉"
+    },
+    {
+      "id": 20000145,
+      "group_id": 10000014,
+      "name": "碎片 (动态)",
+      "prompt": "debris, flying_debris, shattered_pieces",
+      "remark": "碎片飞散, 适合战斗破坏"
+    },
+    {
+      "id": 20000146,
+      "group_id": 10000014,
+      "name": "爆炸 (动态)",
+      "prompt": "explosion, blast, explosive_effect",
+      "remark": "爆炸冲击, 适合高张力场景"
+    },
+    {
+      "id": 20000147,
+      "group_id": 10000014,
+      "name": "落叶 (动态)",
+      "prompt": "falling_leaves, drifting_leaves",
+      "remark": "落叶飘零, 适合秋景唯美"
+    },
+    {
+      "id": 20000148,
+      "group_id": 10000014,
+      "name": "飘雪 (动态)",
+      "prompt": "falling_snow, snowflakes, drifting_snow",
+      "remark": "雪花飘落, 适合冬季浪漫"
+    },
+    {
+      "id": 20000149,
+      "group_id": 10000014,
+      "name": "沙尘 (动态)",
+      "prompt": "sandstorm, dust_cloud, blowing_dust",
+      "remark": "沙尘暴, 适合荒漠废土"
+    },
+    {
+      "id": 20000150,
+      "group_id": 10000014,
+      "name": "海浪 (动态)",
+      "prompt": "waves, crashing_waves, ocean_spray",
+      "remark": "海浪拍打, 适合海景力量"
+    },
+    {
+      "id": 20000151,
+      "group_id": 10000014,
+      "name": "水雾 (动态)",
+      "prompt": "water_mist, spray, mist_from_water",
+      "remark": "水雾弥漫, 适合瀑布海边空气感"
+    },
+    {
+      "id": 20000152,
+      "group_id": 10000001,
+      "name": "质量清晰度负面 (负面)",
+      "prompt": "lowres, worst_quality, bad_quality, low_quality, very_displeasing, out_of_focus, blurry",
+      "remark": "默认必带；柔焦虚化时删blurry/out_of_focus"
+    },
+    {
+      "id": 20000153,
+      "group_id": 10000001,
+      "name": "图像伪影负面 (负面)",
+      "prompt": "artistic_error, film_grain, scan_artifacts, jpeg_artifacts, chromatic_aberration",
+      "remark": "默认必带；要胶片颗粒删film_grain"
+    },
+    {
+      "id": 20000154,
+      "group_id": 10000001,
+      "name": "水印页面负面 (负面)",
+      "prompt": "logo, too_many_watermarks, blank_page, multiple_views",
+      "remark": "默认必带, 防水印多视图空白页"
+    },
+    {
+      "id": 20000155,
+      "group_id": 10000001,
+      "name": "解剖肢体负面 (负面)",
+      "prompt": "bad_anatomy, deformed, mutated, disfigured, missing_arms, extra_arms, extra_legs, bad_hands, malformed_hands, extra_fingers, inaccurate_limbs, extra_digits, fewer_digits",
+      "remark": "画人必带, 纯风景可省"
+    },
+    {
+      "id": 20000156,
+      "group_id": 10000001,
+      "name": "风格构图抑制 (负面)",
+      "prompt": "dithering, halftone, screentone, negative_space",
+      "remark": "按需；像素删dithering, 留白删negative_space"
+    },
+    {
+      "id": 20000157,
+      "group_id": 10000015,
+      "name": "歪头 (动作)",
+      "prompt": "head_tilt",
+      "remark": "头部倾斜, 增加可爱感或疑惑感"
+    },
+    {
+      "id": 20000158,
+      "group_id": 10000015,
+      "name": "回头 (动作)",
+      "prompt": "turning_around, looking_back",
+      "remark": "转身或回头看, 增加互动感"
+    },
+    {
+      "id": 20000159,
+      "group_id": 10000015,
+      "name": "向下看 (动作)",
+      "prompt": "looking_down",
+      "remark": "视线向下, 常配忧郁或俯视"
+    },
+    {
+      "id": 20000160,
+      "group_id": 10000015,
+      "name": "向上看 (动作)",
+      "prompt": "looking_up",
+      "remark": "视线向上, 适合仰望天空或祈愿"
+    },
+    {
+      "id": 20000161,
+      "group_id": 10000015,
+      "name": "闻 (动作)",
+      "prompt": "smelling",
+      "remark": "闻气味, 常用于花朵或食物"
+    },
+    {
+      "id": 20000162,
+      "group_id": 10000015,
+      "name": "手放在嘴边 (动作)",
+      "prompt": "hand_to_mouth",
+      "remark": "手捂嘴, 适合惊讶、偷笑或沉思"
+    },
+    {
+      "id": 20000163,
+      "group_id": 10000015,
+      "name": "手放旁边 (动作)",
+      "prompt": "arm_at_side",
+      "remark": "手自然下垂或放身侧"
+    },
+    {
+      "id": 20000164,
+      "group_id": 10000015,
+      "name": "手放脑后 (动作)",
+      "prompt": "arms_behind_head",
+      "remark": "双手抱头, 常用悠闲或疲惫"
+    },
+    {
+      "id": 20000165,
+      "group_id": 10000015,
+      "name": "手放后面 (动作)",
+      "prompt": "arms_behind_back",
+      "remark": "手背在身后, 乖巧或藏东西"
+    },
+    {
+      "id": 20000166,
+      "group_id": 10000015,
+      "name": "手放自己胸前 (动作)",
+      "prompt": "hand_on_own_chest",
+      "remark": "手按胸口, 真诚或感慨"
+    },
+    {
+      "id": 20000167,
+      "group_id": 10000015,
+      "name": "手交叉于胸前 (动作)",
+      "prompt": "arms_crossed",
+      "remark": "抱胸, 强势或自信防备"
+    },
+    {
+      "id": 20000168,
+      "group_id": 10000015,
+      "name": "单手叉腰 (动作)",
+      "prompt": "hand_on_hip",
+      "remark": "单手插腰, 自信活力"
+    },
+    {
+      "id": 20000169,
+      "group_id": 10000015,
+      "name": "手放别人臀 (动作)",
+      "prompt": "hand_on_anothers_hip",
+      "remark": "双人互动, 搂腰"
+    },
+    {
+      "id": 20000170,
+      "group_id": 10000015,
+      "name": "双手叉腰 (动作)",
+      "prompt": "hands_on_hips",
+      "remark": "双手叉腰, 气鼓鼓或得意"
+    },
+    {
+      "id": 20000171,
+      "group_id": 10000015,
+      "name": "举手 (动作)",
+      "prompt": "arms_up, hands_up",
+      "remark": "举起双手, 投降或欢呼"
+    },
+    {
+      "id": 20000172,
+      "group_id": 10000015,
+      "name": "伸懒腰 (动作)",
+      "prompt": "stretching",
+      "remark": "伸懒腰, 放松或刚睡醒"
+    },
+    {
+      "id": 20000173,
+      "group_id": 10000015,
+      "name": "举手露腋 (动作)",
+      "prompt": "armpits",
+      "remark": "强调腋下, 特定XP或夏日"
+    },
+    {
+      "id": 20000174,
+      "group_id": 10000015,
+      "name": "手把腿抓着 (动作)",
+      "prompt": "leg_hold",
+      "remark": "抱住或抓着腿"
+    },
+    {
+      "id": 20000175,
+      "group_id": 10000015,
+      "name": "抓住 (动作)",
+      "prompt": "grabbing",
+      "remark": "抓取动作"
+    },
+    {
+      "id": 20000176,
+      "group_id": 10000015,
+      "name": "拿着 (动作)",
+      "prompt": "holding",
+      "remark": "手持物品, 需配合具体物品词"
+    },
+    {
+      "id": 20000177,
+      "group_id": 10000015,
+      "name": "用手指做出笑脸 (动作)",
+      "prompt": "fingersmile",
+      "remark": "手指戳脸颊的笑脸"
+    },
+    {
+      "id": 20000178,
+      "group_id": 10000015,
+      "name": "拉头发 (动作)",
+      "prompt": "hair_pull",
+      "remark": "拉拽头发"
+    },
+    {
+      "id": 20000179,
+      "group_id": 10000015,
+      "name": "撮头发 (动作)",
+      "prompt": "hair_scrunchie",
+      "remark": "扎头发或捋头发"
+    },
+    {
+      "id": 20000180,
+      "group_id": 10000015,
+      "name": "w手势 (动作)",
+      "prompt": "w_hand",
+      "remark": "W手势, 卖萌"
+    },
+    {
+      "id": 20000181,
+      "group_id": 10000015,
+      "name": "v耶 (动作)",
+      "prompt": "v_hand, peace_symbol",
+      "remark": "剪刀手, 最常见"
+    },
+    {
+      "id": 20000182,
+      "group_id": 10000015,
+      "name": "翘大拇指 (动作)",
+      "prompt": "thumbs_up",
+      "remark": "点赞或肯定"
+    },
+    {
+      "id": 20000183,
+      "group_id": 10000015,
+      "name": "比出中指 (动作)",
+      "prompt": "middle_finger",
+      "remark": "中指, 挑衅或不良"
+    },
+    {
+      "id": 20000184,
+      "group_id": 10000015,
+      "name": "猫爪手势 (动作)",
+      "prompt": "cat_pose",
+      "remark": "猫爪卖萌"
+    },
+    {
+      "id": 20000185,
+      "group_id": 10000015,
+      "name": "手枪手势 (动作)",
+      "prompt": "finger_gun",
+      "remark": "手指比枪"
+    },
+    {
+      "id": 20000186,
+      "group_id": 10000015,
+      "name": "嘘手势 (动作)",
+      "prompt": "shushing",
+      "remark": "食指放嘴边, 安静"
+    },
+    {
+      "id": 20000187,
+      "group_id": 10000015,
+      "name": "招手 (动作)",
+      "prompt": "waving",
+      "remark": "挥手打招呼"
+    },
+    {
+      "id": 20000188,
+      "group_id": 10000015,
+      "name": "敬礼 (动作)",
+      "prompt": "salute",
+      "remark": "军礼或致意"
+    },
+    {
+      "id": 20000189,
+      "group_id": 10000015,
+      "name": "张手 (动作)",
+      "prompt": "spread_arms",
+      "remark": "张开双臂, 拥抱或迎接"
+    },
+    {
+      "id": 20000190,
+      "group_id": 10000015,
+      "name": "张开腿 (动作)",
+      "prompt": "spread_legs",
+      "remark": "双腿张开, 坐姿或特定视角"
+    },
+    {
+      "id": 20000191,
+      "group_id": 10000015,
+      "name": "二郎腿 (动作)",
+      "prompt": "crossed_legs",
+      "remark": "跷二郎腿, 优雅或强势"
+    },
+    {
+      "id": 20000192,
+      "group_id": 10000015,
+      "name": "曲腿至胸/婴儿姿势 (动作)",
+      "prompt": "fetal_position",
+      "remark": "抱膝蜷缩, 脆弱或防御"
+    },
+    {
+      "id": 20000193,
+      "group_id": 10000015,
+      "name": "抬一只脚 (动作)",
+      "prompt": "leg_lift",
+      "remark": "抬脚, 平衡或挑逗"
+    },
+    {
+      "id": 20000194,
+      "group_id": 10000015,
+      "name": "抬两只脚 (动作)",
+      "prompt": "legs_up",
+      "remark": "双腿抬起, 通常躺姿"
+    },
+    {
+      "id": 20000195,
+      "group_id": 10000015,
+      "name": "前倾 (动作)",
+      "prompt": "leaning_forward",
+      "remark": "身体前倾, 关注或压迫"
+    },
+    {
+      "id": 20000196,
+      "group_id": 10000015,
+      "name": "靠墙 (动作)",
+      "prompt": "against_wall",
+      "remark": "背靠墙壁, 放松或壁咚"
+    },
+    {
+      "id": 20000197,
+      "group_id": 10000015,
+      "name": "趴着 (动作)",
+      "prompt": "on_stomach",
+      "remark": "俯卧趴着"
+    },
+    {
+      "id": 20000198,
+      "group_id": 10000015,
+      "name": "蹲下 (动作)",
+      "prompt": "squatting",
+      "remark": "蹲姿"
+    },
+    {
+      "id": 20000199,
+      "group_id": 10000015,
+      "name": "躺着 (动作)",
+      "prompt": "lying",
+      "remark": "躺卧"
+    },
+    {
+      "id": 20000200,
+      "group_id": 10000015,
+      "name": "坐 (动作)",
+      "prompt": "sitting",
+      "remark": "基础坐姿"
+    },
+    {
+      "id": 20000201,
+      "group_id": 10000015,
+      "name": "正坐 (动作)",
+      "prompt": "seiza",
+      "remark": "日式正坐, 乖巧"
+    },
+    {
+      "id": 20000202,
+      "group_id": 10000015,
+      "name": "割坐 (动作)",
+      "prompt": "wariza, w-sitting",
+      "remark": "鸭子坐/W坐, 极度可爱"
+    },
+    {
+      "id": 20000203,
+      "group_id": 10000015,
+      "name": "侧身坐 (动作)",
+      "prompt": "yokozuwari",
+      "remark": "侧坐, 常用于草地或床上"
+    },
+    {
+      "id": 20000204,
+      "group_id": 10000015,
+      "name": "盘腿 (动作)",
+      "prompt": "indian_style",
+      "remark": "盘腿坐"
+    },
+    {
+      "id": 20000205,
+      "group_id": 10000015,
+      "name": "抱腿 (动作)",
+      "prompt": "leg_hug",
+      "remark": "双手抱腿坐"
+    },
+    {
+      "id": 20000206,
+      "group_id": 10000015,
+      "name": "走 (动作)",
+      "prompt": "walking",
+      "remark": "行走"
+    },
+    {
+      "id": 20000207,
+      "group_id": 10000015,
+      "name": "跑 (动作)",
+      "prompt": "running",
+      "remark": "奔跑"
+    },
+    {
+      "id": 20000208,
+      "group_id": 10000015,
+      "name": "跨坐 (动作)",
+      "prompt": "straddle, straddling",
+      "remark": "跨坐在物体或人身上"
+    },
+    {
+      "id": 20000209,
+      "group_id": 10000015,
+      "name": "下跪 (动作)",
+      "prompt": "kneeling",
+      "remark": "单膝或双膝下跪"
+    },
+    {
+      "id": 20000210,
+      "group_id": 10000015,
+      "name": "抽烟 (动作)",
+      "prompt": "smoking",
+      "remark": "抽烟动作, 成熟或颓废"
+    },
+    {
+      "id": 20000211,
+      "group_id": 10000015,
+      "name": "用手支撑住 (动作)",
+      "prompt": "arm_support",
+      "remark": "单手或双手撑地/撑床"
+    },
+    {
+      "id": 20000212,
+      "group_id": 10000015,
+      "name": "街舞梗 (动作)",
+      "prompt": "carameldansenniconiconi",
+      "remark": "Caramelldansen 舞蹈动作"
+    },
+    {
+      "id": 20000213,
+      "group_id": 10000015,
+      "name": "公主抱 (动作)",
+      "prompt": "princess_carry",
+      "remark": "横抱, 双人互动极佳"
+    },
+    {
+      "id": 20000214,
+      "group_id": 10000015,
+      "name": "战斗姿态 (动作)",
+      "prompt": "fighting_stance",
+      "remark": "准备战斗的架势"
+    },
+    {
+      "id": 20000215,
+      "group_id": 10000015,
+      "name": "颠倒的 (动作)",
+      "prompt": "upside-down",
+      "remark": "倒立或倒挂"
+    },
+    {
+      "id": 20000216,
+      "group_id": 10000015,
+      "name": "趴着翘臀 (动作)",
+      "prompt": "top-down_bottom-up",
+      "remark": "趴姿抬高臀部, 特定视角"
+    },
+    {
+      "id": 20000217,
+      "group_id": 10000015,
+      "name": "翘臀姿势 (动作)",
+      "prompt": "bent_over",
+      "remark": "弯腰翘臀"
+    },
+    {
+      "id": 20000218,
+      "group_id": 10000015,
+      "name": "弓身体 (动作)",
+      "prompt": "arched_back",
+      "remark": "背部向后反弓, 强调曲线"
+    },
+    {
+      "id": 20000219,
+      "group_id": 10000015,
+      "name": "背对背 (动作)",
+      "prompt": "back-to-back",
+      "remark": "双人背靠背"
+    },
+    {
+      "id": 20000220,
+      "group_id": 10000015,
+      "name": "对手势 (动作)",
+      "prompt": "symmetrical_hand_pose",
+      "remark": "双手对称的手势"
+    },
+    {
+      "id": 20000221,
+      "group_id": 10000015,
+      "name": "对眼(对视) (动作)",
+      "prompt": "eye_contact",
+      "remark": "眼神交汇"
+    },
+    {
+      "id": 20000222,
+      "group_id": 10000015,
+      "name": "拥抱 (动作)",
+      "prompt": "hug",
+      "remark": "互相拥抱"
+    },
+    {
+      "id": 20000223,
+      "group_id": 10000015,
+      "name": "膝枕 (动作)",
+      "prompt": "lap_pillow",
+      "remark": "躺在别人大腿上"
+    },
+    {
+      "id": 20000224,
+      "group_id": 10000015,
+      "name": "睡觉 (动作)",
+      "prompt": "sleeping",
+      "remark": "闭眼睡觉"
+    },
+    {
+      "id": 20000225,
+      "group_id": 10000015,
+      "name": "洗澡 (动作)",
+      "prompt": "bathing",
+      "remark": "洗澡/泡澡"
+    },
+    {
+      "id": 20000226,
+      "group_id": 10000015,
+      "name": "掏耳勺 (动作)",
+      "prompt": "mimikaki",
+      "remark": "日式掏耳朵"
+    },
+    {
+      "id": 20000227,
+      "group_id": 10000015,
+      "name": "牵手 (动作)",
+      "prompt": "holding_hands",
+      "remark": "手牵手"
+    }
+  ]
+}
